@@ -1,0 +1,169 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Ahmed Hassan",
+      "specialty": "Cardiology",
+      "image": "https://i.pravatar.cc/300?img=12",
+      "description": "Cardiology specialist focused on preventive care, heart health, and cardiovascular follow-up.",
+      "experience": "12 years",
+      "location": "Fayoum Medical Center",
+      "phone": "+20 100 123 4567",
+      "workingDays": [
+        "Saturday",
+        "Sunday",
+        "Tuesday"
+      ],
+      "slots": [
+        "09:00",
+        "10:00",
+        "11:30",
+        "13:00"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dr. Sara Mohamed",
+      "specialty": "Dermatology",
+      "image": "https://i.pravatar.cc/300?img=47",
+      "description": "Dermatology specialist providing care for common skin, hair, and nail conditions.",
+      "experience": "9 years",
+      "location": "Al Salam Clinic",
+      "phone": "+20 101 222 3344",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Wednesday"
+      ],
+      "slots": [
+        "10:00",
+        "11:00",
+        "12:30",
+        "14:00"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dr. Omar Ali",
+      "specialty": "Pediatrics",
+      "image": "https://i.pravatar.cc/300?img=68",
+      "description": "Pediatrician caring for children with a focus on growth, development, and everyday illnesses.",
+      "experience": "15 years",
+      "location": "Kids Care Clinic",
+      "phone": "+20 102 555 6677",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "09:30",
+        "10:30",
+        "12:00",
+        "13:30"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dr. Mariam Adel",
+      "specialty": "Dentistry",
+      "image": "https://i.pravatar.cc/300?img=44",
+      "description": "Dentist offering preventive dental care, checkups, fillings, and oral hygiene guidance.",
+      "experience": "8 years",
+      "location": "Bright Smile Center",
+      "phone": "+20 103 888 9911",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Thursday"
+      ],
+      "slots": [
+        "09:00",
+        "10:30",
+        "12:00",
+        "15:00"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Dr. Youssef Samir",
+      "specialty": "Neurology",
+      "image": "https://i.pravatar.cc/300?img=11",
+      "description": "Neurologist specializing in headache, nerve disorders, and neurological consultations.",
+      "experience": "11 years",
+      "location": "Fayoum Medical Center",
+      "phone": "+20 104 333 4455",
+      "workingDays": [
+        "Sunday",
+        "Monday",
+        "Wednesday"
+      ],
+      "slots": [
+        "10:00",
+        "11:30",
+        "13:00",
+        "14:30"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Dr. Nour Ibrahim",
+      "specialty": "Internal Medicine",
+      "image": "https://i.pravatar.cc/300?img=32",
+      "description": "Internal medicine physician providing general consultations and long-term health follow-up.",
+      "experience": "10 years",
+      "location": "Life Medical Clinic",
+      "phone": "+20 105 777 8899",
+      "workingDays": [
+        "Saturday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "09:30",
+        "11:00",
+        "12:30",
+        "14:00"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "doctorId": "1",
+      "patientName": "Ahmed Hassan",
+      "email": "ah2125593@gmail.com",
+      "phone": "01045858127",
+      "date": "2026-09-24",
+      "time": "09:00",
+      "note": "",
+      "doctorName": "Dr. Ahmed Hassan",
+      "specialty": "Cardiology",
+      "id": "v9MrHPJ9CcY"
+    },
+    {
+      "doctorId": "1",
+      "patientName": "Ahmed Hassan",
+      "email": "ah2125593@gmail.com",
+      "phone": "01145858127",
+      "date": "2026-09-25",
+      "time": "09:00",
+      "note": "",
+      "doctorName": "Dr. Ahmed Hassan",
+      "specialty": "Cardiology",
+      "id": "uJfTIromWU0"
+    },
+    {
+      "doctorId": "1",
+      "patientName": "ِAhmed Hassan",
+      "email": "ah2125593@gmail.com",
+      "phone": "01145858127",
+      "date": "2026-09-25",
+      "time": "09:00",
+      "note": "",
+      "doctorName": "Dr. Ahmed Hassan",
+      "specialty": "Cardiology",
+      "id": "zVe7fbPE4E0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
